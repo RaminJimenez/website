@@ -1,0 +1,30 @@
+* {
+    box-sizing: boder-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 240, 230);
+    margin: 0;
+}
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 15px;
+    color: rgb(255,240,230);
+    cursor: pointer;
+    flex: 1;
+    margin: 7 px;
+    position: relative;
+}
+
