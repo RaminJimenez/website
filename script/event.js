@@ -53,8 +53,5 @@ hoverBox.addEventListener('mouseleave', () => {
 })
 
 dblClickBox.addEventListener('mouseclick', () => {
-    body.style.background = colors2[index2]
-    index2 = index2 + 1
-    if (index2 > 4)
-        index2 = 0
+    dblClickBox.classList.toggle("circlemove");
 })
