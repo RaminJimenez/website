@@ -4,13 +4,14 @@ moveBox = document.querySelector('.move')
 hoverBox = document.querySelector('.hover')
 dblclickBox = document.querySelector('.dblclick')
 
-colors = ['blue', 'green', 'purple', 'red']
+colors1 = ['blue', 'green', 'purple', 'red']
+colors2 = ['orange', 'red', 'blue', 'violet']
 index = 0
 
 clickBox.addEventListener('click', () => {
-    clickBox.style.background = colors[index]
+    clickBox.style.background = colors1[index]
     index = index + 1
-    if (index > 3)
+    if (index > 4)
        index = 0
 
     clickBox.style.color = 'white'
@@ -50,5 +51,8 @@ hoverBox.addEventListener('mouseleave', () => {
 })
 
 dblClickBox.addEventListener('mouseclick', () => {
-    
+    body.style.background = colors2[index]
+    index = index + 1
+    if (index > 4)
+        index = 0
 })
