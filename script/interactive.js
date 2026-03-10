@@ -7,4 +7,5 @@ clickBox.addEventListener('click', () => {
     {
         clickBox.style.background = colors[index]
     }
+    clickBox.style.color = 'white'
 })
