@@ -52,6 +52,6 @@ hoverBox.addEventListener('mouseleave', () => {
     hoverBox.style.width = "250px"
 })
 
-dblClickBox.addEventListener('mouseclick', () => {
-    dblClickBox.classList.toggle("circlemove");
+dblclickBox.addEventListener('dblclick', () => {
+    dblclickBox.classList.toggle("circlemove");
 })
