@@ -13,7 +13,7 @@ clickBox.addEventListener('click', () => {
 
     clickBox.style.color = 'white'
     body.style.background = colors2[index2]
-    index2 = index2 + 2
+    index2 = index2 + 1
     if (index2 > 6)
         index2 = 0
 })
