@@ -1,8 +1,8 @@
 clickBox = document.querySelector('.click')
-body = document.querySelector('.body')
+body = document.querySelector('body')
 
 colors1 = ['blue', 'red', 'green', 'purple', 'magenta', 'orange']
-colors2 = ['orange', 'green', 'blue', 'violet', 'turqoise', 'maroon']
+colors2 = ['orange', 'green', 'blue', 'black', 'turqoise', '']
 index1 = 0;
 index2 = 0;
 clickBox.addEventListener('click', () => {
@@ -12,7 +12,7 @@ clickBox.addEventListener('click', () => {
        index1 = 0
 
     clickBox.style.color = 'white'
-    body.style.color = colors2[index2]
+    body.style.background = colors2[index2]
     index2 = index2 + 2
     if (index2 > 6)
         index2 = 0
