@@ -2,7 +2,7 @@ clickBox = document.querySelector('.click')
 body = document.querySelector('body')
 
 colors1 = ['blue', 'red', 'green', 'purple', 'magenta', 'orange']
-colors2 = ['orange', 'green', 'blue', 'black', 'turqoise', '']
+colors2 = ['orange', 'green', 'blue', 'yellow', 'purple', 'red']
 index1 = 0;
 index2 = 0;
 clickBox.addEventListener('click', () => {
