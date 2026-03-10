@@ -3,6 +3,7 @@ spinBox = document.querySelector('.spin')
 moveBox = document.querySelector('.move')
 hoverBox = document.querySelector('.hover')
 dblclickBox = document.querySelector('.dblclick')
+body = document.querySelector('body')
 
 colors1 = ['blue', 'green', 'purple', 'red']
 colors2 = ['orange', 'red', 'blue', 'violet']
