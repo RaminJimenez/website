@@ -8,16 +8,24 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .btn {
     background: red;
     color: white;
     margin: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 1.5rem 3rem;
     cursor: pointer;
     border-radius: 5px;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .btn:hover {
