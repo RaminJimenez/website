@@ -6,12 +6,16 @@ tada = document.querySelector('.tada')
 victory = document.querySelector('.victory')
 wrong = document.querySelector('.wrong')
 
+sounds ['applause', 'boo', 'gasp', 'tada', 'victory', 'wrong']
+
+for (let i = 0; i < 6; i = i + 1){
 btn = document.createElement('button')
-btn.innerText = "applause"
+btn.innerText = "sounds[i]"
 btn.classList.add('btn')
 btn.addEventListener('click', () => {
-    applause.play()
+    sounds[i].play()
 
 })
 buttons.appendChild(btn)
+}
 
