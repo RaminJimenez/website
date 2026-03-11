@@ -1,5 +1,10 @@
 buttons = document.querySelector('.buttons')
 applause = document.querySelector('.applause')
+boo = document.querySelector('.boo')
+gasp = document.querySelector('.gasp')
+tada = document.querySelector('.tada')
+victory = document.querySelector('.victory')
+wrong = document.querySelector('.wrong')
 
 btn = document.createElement('button')
 btn.innerText = "applause"
@@ -10,10 +15,3 @@ btn.addEventListener('click', () => {
 })
 buttons.appendChild(btn)
 
-btn = document.createElement('button')
-btn.innerText = "boo"
-btn.classList.add('btn')
-btn.addEventListener('click', () => {
-    boo.play()
-})
-buttons.appendChild(btn)
