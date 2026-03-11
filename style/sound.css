@@ -11,5 +11,7 @@ body {
 }
 
 .btn {
-    background: ;
+    background: red;
+    color: white;
+    margin: 1rem;
 }
