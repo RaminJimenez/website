@@ -9,3 +9,11 @@ btn.addEventListener('click', () => {
 
 })
 buttons.appendChild(btn)
+
+btn = document.createElement('button')
+btn.innerText = "boo"
+btn.classList.add('btn')
+btn.addEventListener('click', () => {
+    boo.play()
+})
+buttons.appendChild(btn)
