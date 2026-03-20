@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
     background: rgb(255, 240, 240);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 500;
     overflow-x: hidden;
     padding-bottom: 50px;
 }
@@ -28,13 +31,13 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 0px;
+    list-style-type: none;
 }
 
 .nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    list-style-type: none;
 }
 
 .nav a {
@@ -52,7 +55,7 @@ body {
 }
 
 .nav.active .container {
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 .nav a:hover {
     font-weight:bold;
