@@ -2,6 +2,10 @@ screens = document.querySelectorAll('.screen')
 choose_insect_btns = document.querySelectorAll('.choose-insect-btn')
 start_btn = document.getElementById('start-btn')
 game_container = document.querySelector('.game-container')
+scoreEl = document.getElementById('score')
+timeEl = document.getElementById('time')
+score = 0
+seconds = 0
 
 start_btn.addEventListener('click', () => {
     screens[0].classList.add('up')
@@ -20,6 +24,8 @@ for (let i = 0; i < choose_insect_btns.length; i = i + 1)
 
 function startGame() {
     setTimeout(createInsect, 1000)
+    setInterval(increaseTime, 1000)
+
 }
 
 function createInsect() {
@@ -47,5 +53,15 @@ function catchInsect(e) {
     //increaseScore()
     insect = e.currentTarget
     insect.classList.add('caught')
-    setTimeout( () => insect.remove(), 2000)
+    // setTimeout( () => insect.remove(), 2000)
+}
+
+function increaseScore() {
+    score = score + 1
+    scoreEl.innerHTML = `Score: ${score}`
+}
+
+function increaseTime() {
+    seconds = seconds + 1
+    timeEl.innerHTML = `Time: 00:${seconds}`
 }
