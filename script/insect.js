@@ -6,6 +6,7 @@ scoreEl = document.getElementById('score')
 timeEl = document.getElementById('time')
 score = 0
 seconds = 0
+m = 0
 
 start_btn.addEventListener('click', () => {
     screens[0].classList.add('up')
@@ -63,5 +64,6 @@ function increaseScore() {
 
 function increaseTime() {
     seconds = seconds + 1
-    timeEl.innerHTML = `Time: 00:${seconds}`
+    m = seconds/60
+    timeEl.innerHTML = `Time: ${m}:${seconds}`
 }
