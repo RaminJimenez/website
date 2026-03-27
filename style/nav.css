@@ -52,7 +52,7 @@ body {
 
 .nav.active {
     background-color: rgb(255, 240, 240);
-    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 9px;
 }
 
 .nav.active a {
