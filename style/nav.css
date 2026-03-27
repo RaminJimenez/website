@@ -33,7 +33,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 0px;
+    padding: 13px 0px;
     list-style-type: none;
     transition: padding 0.3s ease
 }
@@ -52,7 +52,7 @@ body {
 
 .nav.active {
     background-color: rgb(255, 240, 240);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
 }
 
 .nav.active a {
@@ -60,7 +60,7 @@ body {
 }
 
 .nav.active .container {
-    padding: 5px 0px;
+    padding: 2px 0px;
 }
 .nav a:hover {
     font-weight:bold;
@@ -83,7 +83,7 @@ body {
     align-items: center;
     text-align: center;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     z-index: -2;
     background-size: cover;
     text-shadow: 1px 2px 5px black;
