@@ -119,8 +119,9 @@ body {
     margin: 20px 0px;
 }
 
-/* .content p {
+.content p {
     color: #555555
+    font-size: 90%;
     line-height: 30px;
     letter-spacing: 0.5px;
-} */
+}
