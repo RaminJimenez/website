@@ -34,6 +34,7 @@ body {
     justify-content: space-between;
     padding: 15px 0px;
     list-style-type: none;
+    transition: padding 0.3s ease
 }
 
 .nav ul {
@@ -59,6 +60,7 @@ body {
 
 .nav.active .container {
     padding: 5px 0px;
+    transition: padding 0.3s ease
 }
 .nav a:hover {
     font-weight:bold;
