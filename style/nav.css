@@ -60,7 +60,6 @@ body {
 
 .nav.active .container {
     padding: 5px 0px;
-    transition: padding 0.3s ease
 }
 .nav a:hover {
     font-weight:bold;
