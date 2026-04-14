@@ -1,11 +1,11 @@
 nav = document.querySelector('.nav')
+window.addEventListener('scroll',fixNav)
 
-
-window.addEventListener('scroll', () => {
-    if (scrollY > 420) {
+function fixNav() {
+    if (window.scrollY > 223) {
         nav.classList.add('active')
     }
     else {
         nav.classList.remove('active')
     }
-})
+}
