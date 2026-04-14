@@ -23,7 +23,7 @@
 
 .btn:hover {
     background-color: rgb(100, 100, 340);
-    transform: scale(1.05);
+    font-weight: 1000;
 }
 
 h1 {
