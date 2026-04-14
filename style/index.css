@@ -3,5 +3,12 @@
 }
 
 .btn {
-    
+    height: 60px;
+    width: 250px;
+    background: rgb(255, 210, 200);
+    margin: 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
