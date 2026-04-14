@@ -14,11 +14,17 @@ body {
     margin-bottom: 70px;
     z-index: -2;
     background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
 }
+
+
 .btn {
     height: 60px;
     width: 250px;
-    background: rgb(255, 240, 240);
+    background: rgb(255, 250, 250);
     margin: 3px;
     border-radius: 20px;
     display: flex;
@@ -29,11 +35,16 @@ body {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 730;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
+    opacity: 0;
 
+    /* transform: translateX(-50px); */
+    transition: all 0.5s ease;
+
+}
+
+.btn.show {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .btn:hover {
@@ -45,4 +56,5 @@ h1 {
     font-family: "Chango", sans-serif;
     font-weight: 300;
     font-style: normal;
+    margin-bottom: 20px;
 }

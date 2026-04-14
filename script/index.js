@@ -1,6 +1,7 @@
-box = document_querySelector('.btn')
+const buttons = document.querySelectorAll('.btn')
 
-box.addEventListener('hover', () => {
-    
-
+buttons.forEach((btn, index) => {
+    setTimeout(() => {
+        btn.classList.add('show')
+    }, index * 100)
 })
