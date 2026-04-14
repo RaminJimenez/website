@@ -36,13 +36,14 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 13px 0px;
-    list-style-type: none;
-    transition: padding 0.3s ease
+    /* list-style-type: none; */
+    transition: padding 0.3s ease;
 }
 
 .nav ul {
     display: flex;
     align-items: center;
+    list-style-type: none;
     justify-content: center;
 }
 
@@ -50,6 +51,7 @@ body {
     color: rgb(255, 240, 240);
     text-decoration: none;
     padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav.active {
