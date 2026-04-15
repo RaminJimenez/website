@@ -19,4 +19,16 @@ function moveBall(){
 }
 
 let ballTop = ballYPosition
-let ballBottom = ballYPosition + 2 * 
+let ballBottom = ballYPosition + 2 *
+
+function createPaddle(){}
+wKey = false
+sKey = false
+document.addEventListener('keydown',(event) => {
+    if (event.key == 'w') {
+        wKey = true
+    }
+    if event.key == 's' {
+        sKey = true
+    }
+})
