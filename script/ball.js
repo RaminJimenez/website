@@ -11,6 +11,17 @@ document.body.appendChild(All)
 let ballSpeed = 5
 let ballXDirection = 1
 let ballYDirection = 1
+let LPaddleYPosition = windowHeight / 2 - LPaddleHeight / 2
+let LPaddleXPosition = 70
+
+const ball = document.createElement('div')
+document.body.appendChild(ball)
+const ballRadius = 20
+let ballXPosition = windowWidth/2 - ballRadius
+let ballYPosition = windowHeight/2 - ballRadius
+let ball
+let ballXDirection = 1
+let ballYDirection = 1
 
 
 
